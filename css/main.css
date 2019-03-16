@@ -1373,9 +1373,10 @@ header .logo a {
 	padding: 0 14px 0 8px;
 	color: rgba(255, 255, 255, 0.3);
 }
+
 .intro-content .button {
-	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.3);
+	color: #cc005f !important;
+	border-color: rgba(255, 255, 255, 0.5);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
@@ -1384,18 +1385,10 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
+
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #cc005f;
-}
-.intro-content .button::after {
-	display: inline-block;
-	content: "\f107";
-	font-family: FontAwesome;
-	font-size: 1.6rem;
-	line-height: inherit;
-	text-align: center;
-	position: relative;
-	left: 1.2rem;
+	color: #FFFFFF !important;
 }
 
 .intro-social {
@@ -1413,6 +1406,7 @@ header .logo a {
 	margin: 0 20px;
 	padding: 0;
 }
+
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
