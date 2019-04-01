@@ -2612,13 +2612,15 @@ footer .copyright span:last-child::after {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding-top: 12rem;
+	padding-top: 10rem;
 	padding-bottom: 12rem;
 	color: white;
 	position: relative;
 }
 
 .contribution-logos{
+	padding: 5rem;
+	padding-bottom: 0;
 	text-align: center;
 }
 
