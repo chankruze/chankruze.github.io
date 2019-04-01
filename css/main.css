@@ -2572,8 +2572,8 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
+	background: #c0c0c0;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2587,7 +2587,8 @@ footer .copyright span:last-child::after {
 	line-height: inherit;
 }
 #go-top a:hover {
-	background: #000000;
+	color: #fff;
+	background: #990047;
 }
 
 #more {
@@ -2599,4 +2600,29 @@ footer .copyright span:last-child::after {
 	display: inline-block;
 }
 
-/*# sourceMappingURL=main.css.map */
+/** 
+ * ===================================================================
+ * 19. contributions - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ #contributions {
+	/* background: #313131 url(../images/sample-image.jpg) no-repeat center; */
+	background: #e6e6e6;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+	color: white;
+	position: relative;
+}
+
+.contribution-logos{
+	text-align: center;
+}
+
+.contribution-logos .slide{
+	display: inline-block;
+}
+
